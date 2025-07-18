@@ -44,7 +44,7 @@ INSTALLED_APPS = [
 
 rest_framework={
 
-    DEFAULT_AUTHENTICATION_CLASSES:(
+    'DEFAULT_AUTHENTICATION_CLASSES':(
         'rest_framework_simplejwt.authentication.JWTAUTHENTICATION'
     ),
 }
